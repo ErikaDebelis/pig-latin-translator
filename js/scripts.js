@@ -35,7 +35,7 @@ function wayAdder(text, vowelArray) {
     }
   }
 }
-
+//move
 else if (text.charAt(0) === consonantsArray[i]) {
   constText = text.split(" "); //"m" "o" "v" "e"
   if (constText.charAt(0) === consonantsArray[i]) && (constText.charAt(1) === vowelArray[i]) //move 
