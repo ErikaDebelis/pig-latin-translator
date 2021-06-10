@@ -26,6 +26,10 @@ Test: "It recognizes words beginning with a consonant"
 Code: consonateFinder("cow");
 Expected Output: 1
 
+Test: "It recognizes words beginning with 2 consonants"
+Code: consonateFinder("create");
+Expected Output: 1
+
 Test: "Function moves consonates to end of word"
 Code: consonateFinder("owc");
 Expected Output: 1
@@ -48,7 +52,13 @@ Test "Function add's 'ay' to the end of the word"
 Code: quFinder("eenquay);
 Expected Output: 1
 
+Test: "It recognizes words that start with a consonant followed by qu at the beginning of the word"
+Code: quFinder("squeak");
+Expected Output: 1
 
+Test "Function add's 'ay' to the end of the word"
+Code: quFinder("eaksquay);
+Expected Output: 1
 
 grotesque
 quegrotes
