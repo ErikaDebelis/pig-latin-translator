@@ -45,22 +45,21 @@ else if (text.charAt(0) === consonantsArray[i]) {
   let pigLatinConst = newPigLatinWord.join //ovem
     return (pigLatinConst + "ay") //ovemay
 }
-  if (constText.charAt(0) === consonantsArray[i]) && (constText.charAt(1) === consonantsArray[i]) //create
+  else if (constText.charAt(0) === consonantsArray[i]) && (constText.charAt(1) === consonantsArray[i]) //create
 
   let constPig = constText.slice(1) //"c" "r" "e" "a" "t" "e"
   let newPigLatinWord = constPig.concat(constText(1)) //"e" "a" "t" "e" "c" "r"
   let pigLatinConst = newPigLatinWord.join // eatecr
     return (pigLatinConst + "ay") // eatecray
 }
-
-  if (constText.charAt(0) === "q") && (constText.charAt(1) === "u") // "q" "u" "i" "c" "k"
+  else if (constText.charAt(0) === "q") && (constText.charAt(1) === "u") // "q" "u" "i" "c" "k"
 
   let constPig = constText.slice(1) //"i" "c" "k"
   let newPigLatinWord = constPig.concat(constText(1)) //"i" "c" "k" "q" "u"
   let pigLatinConst = newPigLatinWord.join //ickqu
     return (pigLatinConst + "ay") //ickquay
 }
-  if (constText.charAt(0) === consonantsArray[i]) && (constText.charAt(1) === "q") && (constText.charAt(1) === "u") // "s" "q" "u" "e" "a" "k"
+  if (constText.charAt(0) === consonantsArray[i]) && (constText.charAt(1) === "q") && (constText.charAt(2) === "u") // "s" "q" "u" "e" "a" "k"
 
   let constPig = constText.slice(2) // "e" "a" "k" "s" "q" "u"
   let newPigLatinWord = constPig.concat(constText(2)) // "e" "a" "k" "s" "q" "u"
